@@ -1,24 +1,13 @@
-# README
+# TEAMS API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API para la gestión de jugadores asociados a un equipo.
 
-Things you may want to cover:
+## Configuración del entorno
 
-* Ruby version
+Ruby MRI 3.1.1
+PostgreSQL 14.2
+### Setup
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Instala gemas: `bundle install`
+* Crear la base de datos `bundle exec rails db:setup`
+* Lanzar el servidor: `bundle exec rails s`
