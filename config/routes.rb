@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  resources :teams, controller: 'teams', only: %i[index show create update destroy]
+  resources :players, controller: 'players', only: %i[index show create update destroy]
 end
